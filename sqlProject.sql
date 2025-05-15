@@ -1,4 +1,4 @@
-create schema RestaurantDBase;
+create DATABASE RestaurantDBase;
 use RestaurantDBase;
 
 CREATE TABLE Restaurant (
