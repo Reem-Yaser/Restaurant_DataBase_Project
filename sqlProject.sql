@@ -63,7 +63,7 @@ INSERT INTO Restaurant VALUES
 (9, 'Feteer Station', '01111111119', '6 October'),
 (10, 'Chicken Planet', '01111111120', 'New Cairo');
 
--- Customer
+
 INSERT INTO Customer VALUES
 (1, 'Ahmed', '01000000001'),
 (2, 'Sara', '01000000002'),
@@ -76,7 +76,7 @@ INSERT INTO Customer VALUES
 (9, 'Ali', '01000000009'),
 (10, 'Dina', '01000000010');
 
--- Tables
+
 INSERT INTO Tables VALUES
 (1, 1, 1, 4, 'available'),
 (2, 1, 2, 2, 'reserved'),
@@ -89,7 +89,7 @@ INSERT INTO Tables VALUES
 (9, 5, 1, 6, 'available'),
 (10, 5, 2, 4, 'reserved');
 
--- Dishes
+
 INSERT INTO Dishes VALUES
 (1, 'Margherita', 60, 'Pizza', 1),
 (2, 'Beef Burger', 75, 'Burger', 2),
@@ -103,7 +103,7 @@ INSERT INTO Dishes VALUES
 (10, 'Fried Chicken', 90, 'Main', 10);
 
 
--- Reservation
+
 INSERT INTO Reservation VALUES
 (1, 2, 1, 1),
 (2, 3, 2, 2),
@@ -116,7 +116,7 @@ INSERT INTO Reservation VALUES
 (9, 4, 9, 9),
 (10, 3, 10, 10);
 
--- Reservation_Order
+
 INSERT INTO Reservation_Order VALUES
 (1, 1, 1, 2),
 (2, 2, 2, 1),
